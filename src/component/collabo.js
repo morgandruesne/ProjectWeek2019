@@ -11,6 +11,7 @@ class Collabo extends Component {
     render() {
         return (
             <div>
+                plop
             </div>
         );
     }

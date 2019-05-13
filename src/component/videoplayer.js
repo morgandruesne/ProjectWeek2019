@@ -31,7 +31,6 @@ class VideoPlayer extends Component {
         for (i = 0; i < x.length; i++) {
             x[i].style.display = "none";
         }
-        console.log("plop");
         x[this.state.slideIndex - 1].style.display = "block";
     }
     plusDivs(n) {
