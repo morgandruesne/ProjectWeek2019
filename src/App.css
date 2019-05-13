@@ -34,8 +34,13 @@
   background-color: #000;
 }
 
-.header {
+.franceTvDot {
+  font-size: 18px;
+}
 
+.header {
+  text-align: center;
+  color: #a3a5a8;
 }
 
 body {

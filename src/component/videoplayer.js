@@ -103,8 +103,15 @@ class VideoPlayer extends Component {
             <div>
                 <div className="Menu">
                 </div>
-                <header className="header"></header>
-                <div className="PageContent">
+                <div className="container PageContent">
+                    <hr/>
+                    <div className="row header">
+                        <div className="col"><p>chaînes</p></div>
+                        <div className="col"><p>catégories</p></div>
+                        <div className="col"><h4>France <i className="fa fa-circle franceTvDot"></i> TV</h4></div>
+                        <div className="col"><p>mon espace</p></div>
+                        <div className="col"><p>rechercher</p></div>
+                    </div>
                     <div className="VideoContainer" width="640" height="365">
                         <div id="pub1" className="Slidder" width="640" height="365">
                             <video className="SlidderHeader" id="video0" width="640" height="365">
