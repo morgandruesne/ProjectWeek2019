@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.card-width {
+  width: 18.825rem;
+}
+
+.center-img {
+  position: relative;
+  left: 3.5rem;
+}
+
+.infobar {
+  position: fixed;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+  background-color: coral;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}

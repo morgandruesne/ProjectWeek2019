@@ -2,6 +2,7 @@ import React from 'react';
 import { Component} from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import VideoPlayer from './component/videoplayer';
 import Collabo from './component/collabo';
