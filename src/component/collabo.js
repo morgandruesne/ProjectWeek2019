@@ -146,23 +146,33 @@ class Collabo extends Component {
                         <div className="card-header card-title">
                             {item.id}
                         </div>
-                        <div className="card-body">
+                        <div className="bg-light">
                             <img className="center-img w-50" src={item.image} alt="bullshit" />
                         </div>
-                        <div className={"card-text mt-3 text-center p-2 " + item.statusClass}>
+                        <div className={"card-text mt-0 text-center p-2 font-weight-bold " + item.statusClass}>
                             {item.status}
                         </div>
                     </div>
                 ))}
-                <div className="infobar">
-                    Temps moyen passé sur la plateforme {this.state._disconnectedUserTimeAverageString}
-                    <button
-                        className="button comments"
-                        onClick={ this._pause }
-                    >
-                        {this.state._simulationState}
-                    </button>
-                    {this.state._simulationDateString}
+                <div className="infobar bg-dark row">
+                    <div className="col-lg-1 text-right clock mt-2">
+                        {this.state._simulationDateString}
+                    </div>
+                    <div className="col-lg-1 pause-btn mt-3">
+                        <button
+                            className="btn btn-block btn-info comments font-weight-bold"
+                            onClick={ this._pause }
+                        >
+                            {this.state._simulationState}
+                        </button>
+                    </div>
+                    <div className="col-lg-10">
+                        Temps moyen passé sur la plateforme {this.state._disconnectedUserTimeAverageString}
+                    </div>
+
+                    
+                    
+                    
                 </div>
             </div>
         );

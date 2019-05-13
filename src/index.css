@@ -17,8 +17,9 @@ code {
 }
 
 .center-img {
+  margin-top: 10px;
   position: relative;
-  left: 3.5rem;
+  left: 4.5rem;
 }
 
 .infobar {
@@ -27,7 +28,6 @@ code {
   height: 100px;
   width: 100%;
   padding: 10px;
-  background-color: coral;
   color: white;
   font-weight: bold;
   font-size: 20px;
@@ -38,4 +38,12 @@ code {
   font-weight: bold;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.clock {
+  font-size: 40px;
+}
+
+.pause-btn {
+  height: 100px;
 }
