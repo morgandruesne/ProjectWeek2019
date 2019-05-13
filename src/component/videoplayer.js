@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css'
 
-class Controle extends Component {
+class VideoPlayer extends Component {
     constructor(props){
         super(props);
         this.state = {
@@ -20,6 +20,8 @@ class Controle extends Component {
     showDivs(n) {
         var i;
         var x = document.getElementsByClassName("Slidder");
+        console.log("n = " + n);
+        console.log("lenght = " + x.length);
         if (n > x.length) {
             this.setState({slideIndex: 1})
         }
@@ -65,4 +67,4 @@ class Controle extends Component {
         );
     }
 }
-export default Controle;
+export default VideoPlayer;
