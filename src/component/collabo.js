@@ -166,8 +166,8 @@ class Collabo extends Component {
                             {this.state._simulationState}
                         </button>
                     </div>
-                    <div className="col-lg-10">
-                        Temps moyen passé sur la plateforme {this.state._disconnectedUserTimeAverageString}
+                    <div className="col-lg-10 font-weight-light">
+                        Temps moyen passé sur la plateforme <span className="font-weight-bold">{this.state._disconnectedUserTimeAverageString}</span>
                     </div>
 
                     
