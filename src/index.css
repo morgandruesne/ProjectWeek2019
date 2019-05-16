@@ -17,18 +17,42 @@ code {
 }
 
 .center-img {
+  margin-top: 10px;
   position: relative;
-  left: 3.5rem;
+  left: 6.75rem;
 }
 
 .infobar {
   position: fixed;
   bottom: 0;
-  height: 100px;
+  height: 230px;
   width: 100%;
   padding: 10px;
-  background-color: coral;
   color: white;
   font-weight: bold;
   font-size: 20px;
+}
+
+.card-title {
+  text-transform: capitalize;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.clock {
+  font-size: 60px;
+}
+
+.pause-btn {
+  height: 100px;
+}
+
+.infobar-bubble {
+  height: 100%;
+  padding-top: 10px;
+}
+
+.font-60 {
+  font-size: 60px;
 }
