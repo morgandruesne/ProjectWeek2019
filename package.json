@@ -1,23 +1,22 @@
 {
-  "name": "project-week",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "bootstrap": "^4.3.1",
-    "flickity": "npm:flickity@^2.2.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.0",
-    "react-scripts": "3.0.1"
-  },
+  "name": "POC-advertising-Swipper",
+  "description": "Proof of concept of an advertising swipper",
+  "author": "Morgan Druesne",
+  "main": "./src/index.js",
+  "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "dependencies": {
+    "bootstrap": "^4.6.1",
+    "flickity": "npm:flickity@^2.2.0",
+    "node-sass": "^4.0.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "3.0.1"
   },
   "browserslist": {
     "production": [
@@ -30,5 +29,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.45.0"
   }
 }

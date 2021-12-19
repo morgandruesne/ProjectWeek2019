@@ -1,0 +1,86 @@
+.swipper {
+  background: #191e25;
+}
+
+.middle {
+  position: relative;
+  left: 50%;
+  -ms-transform: translate(-50%, -0%);
+  transform: translate(-50%, -0%);
+}
+
+.swipper-cell-info {
+  position: absolute;
+  height: 100%;
+  background: #000;
+  color: white;
+  opacity: 0;
+  z-index: 1;
+}
+
+.pass-pub-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.pass-pub-link:hover {
+  color: #fff;
+}
+
+.swipper-cell-pass {
+  position: absolute;
+  bottom: 20%;
+  right: 2%;
+  color: white;
+  background: #000;
+  width: 220;
+  height: 100;
+  opacity: 1;
+  z-index: 2;
+  padding: 10px;
+  display: none;
+}
+
+.btn-space {
+  margin: 8px;
+  background: #191e25;
+  width: 55;
+}
+
+.buton-container {
+  text-align: center;
+}
+
+.swipper-cell {
+  margin-right: 3rem;
+}
+
+.info-text {
+  padding: 30px;
+}
+.close {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+  :hover {
+    opacity: 1;
+  }
+  &:before,
+  &:after {
+    position: absolute;
+    left: 15px;
+    content: "  ";
+    height: 33px;
+    width: 2px;
+    background-color: #fff;
+  }
+  &:before {
+    transform: rotate(45deg);
+  }
+  &:after {
+    transform: rotate(-45deg);
+  }
+}
